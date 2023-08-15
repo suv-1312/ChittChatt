@@ -1,0 +1,27 @@
+{
+    "name": "ChitChat",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=14.20.1"
+    },
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "dev": "node backend/server.js",
+        "build": "npm install --legacy-peer-deps  && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    },
+    "author": "Suvrat",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-async-handler": "^1.2.0",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.0.3",
+        "nodemon": "^2.0.22",
+        "socket.io": "^4.6.1"
+    }
+}
