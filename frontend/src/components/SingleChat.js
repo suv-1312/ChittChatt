@@ -11,7 +11,7 @@ import ScrollableChat from './ScrollableChat';
 import ScrollableFeed from 'react-scrollable-feed';
 import io from 'socket.io-client';
 
-const ENDPOINT = "https://chittchatt.onrender.com";
+const ENDPOINT = "";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
